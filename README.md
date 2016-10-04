@@ -10,7 +10,7 @@ Download the code and get started, although I doubt i will release the code for 
 
 Java 1.8
 
-Graphics libraries if i add them
+JOGL Library
 
 ## Deployment
 
@@ -26,5 +26,5 @@ Compile into a Java Archive file (.jar) and use with any project
 
 ## Acknowledgments
 
-Much information was taken from multiple sources on the internet. I am really lazy to list them all.
+StackOverflow.com
 
