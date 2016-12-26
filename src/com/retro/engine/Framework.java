@@ -439,7 +439,8 @@ public class Framework extends Canvas {
             LoadData ld = m_process.load(m_nextScene);
             if (loadContent(ld, g)) {
                 changeScene(m_nextScene);
-                ld.lastMinuteLoads(g);
+                if(ld != null)
+                    ld.lastMinuteLoads(g);
             }
         }
         // Get rid of existing VAOs and VBOs

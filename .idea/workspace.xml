@@ -8,8 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="17b94bc7-bd1e-4f54-9dd4-e37ae6a6fba9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/RetroEngine_jar/RetroEngine.jar" afterPath="$PROJECT_DIR$/out/RetroEngine_jar/RetroEngine.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/jogl_all.xml" afterPath="$PROJECT_DIR$/.idea/libraries/jogl_all.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/retro/engine/Framework.java" afterPath="$PROJECT_DIR$/src/com/retro/engine/Framework.java" />
     </list>
@@ -149,7 +147,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/retro/engine/model/shader/ShaderLoader.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="229">
-              <caret line="34" column="44" lean-forward="true" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+              <caret line="34" column="44" lean-forward="false" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -189,8 +187,8 @@
       <file leaf-file-name="Framework.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/retro/engine/Framework.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="341" column="85" lean-forward="false" selection-start-line="341" selection-start-column="85" selection-end-line="341" selection-end-column="85" />
+            <state relative-caret-position="423">
+              <caret line="433" column="65" lean-forward="false" selection-start-line="433" selection-start-column="65" selection-end-line="433" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -1166,13 +1164,6 @@
       <option name="presentableId" value="Default" />
       <updated>1468609715721</updated>
     </task>
-    <task id="LOCAL-00027" summary="Modified Camera class to allow setting a function that would allow determination of whether the camera can move or not. FirstPersonCamera now works smoothly">
-      <created>1470282623902</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1470282623902</updated>
-    </task>
     <task id="LOCAL-00028" summary="Fixed vector3 a bit to work with ComponentPosition for now. Need to add procedural content generation and collision detection for 3d and 2d next.">
       <created>1470288314554</created>
       <option name="number" value="00028" />
@@ -1509,7 +1500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1473644998070</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="Updated references, now allowing loading with NULL load data.">
+      <created>1482721666759</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1482721666760</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1535,7 +1533,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29322916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29322916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1564,7 +1562,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added AnimatedRawModel for animations of multiple rawmodels (or even just 1) by position and rotation. Will add scaling soon." />
     <MESSAGE value="Added some basic error handling to keep the program running after it has errors. TODO make a better error system, possibly with popup windows and fancy error codes" />
     <MESSAGE value="Did some work on editing animation frames." />
     <MESSAGE value="Fixed AnimationRawModel cloneFrame, added ModelNames to AnimatedRawModel" />
@@ -1589,7 +1586,8 @@
     <MESSAGE value="ThirdPersonCamera can now be switched for orbitting around the point with movement, or move the target position." />
     <MESSAGE value="Added unProject method to shaderProgram, used to get world coordinates given screen coordinates" />
     <MESSAGE value="Made the ability to draw RawModels directly without needing a component. Systems can now be both logical and render allowing different functions to be called." />
-    <option name="LAST_COMMIT_MESSAGE" value="Made the ability to draw RawModels directly without needing a component. Systems can now be both logical and render allowing different functions to be called." />
+    <MESSAGE value="Updated references, now allowing loading with NULL load data." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated references, now allowing loading with NULL load data." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2082,15 +2080,15 @@
     <entry file="file://$PROJECT_DIR$/src/com/retro/engine/model/shader/ShaderLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
-          <caret line="34" column="44" lean-forward="true" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+          <caret line="34" column="44" lean-forward="false" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/retro/engine/Framework.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="341" column="85" lean-forward="false" selection-start-line="341" selection-start-column="85" selection-end-line="341" selection-end-column="85" />
+        <state relative-caret-position="423">
+          <caret line="433" column="65" lean-forward="false" selection-start-line="433" selection-start-column="65" selection-end-line="433" selection-end-column="65" />
           <folding />
         </state>
       </provider>
