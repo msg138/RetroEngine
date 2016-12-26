@@ -338,6 +338,8 @@ public class Framework extends Canvas {
     }
 
     private boolean loadContent(LoadData ld, GL2 gl){
+        if(ld == null)
+            return true;// Obviously didn't want to load anything in the first place.
         ld.load(gl);
         return true;
     }
